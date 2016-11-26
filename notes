@@ -1,0 +1,68 @@
+ round() : rounds a float off to the nearest whole number 
+
+	round(-3.5 ) = -4
+	round( 3.5 ) =  4
+
+
+raw_input:
+	if you want to input strings, while using input, you should "" strings
+	entered, but with raw_input() function , you do not need to do this.
+
+
+string index:
+
+	str1="abcde"
+		then str1[0] = 'a' , str1[2] = 'b'
+
+		str1[-1] = 'e'
+
+		also support 
+			string[ <start> : <end> ]
+				do not include end position, 
+				so str1[0:6] for all	
+			string[ <start> :]
+			string[ : <end>]// do not include end position
+			string[ : ]
+
+	unlike C, len("abcde") = 5;
+
+
+ord():	ord('X')
+	ord("X") shows the ASCII code of a character
+
+chr():	chr(90)	 show the character as input a ascii code number
+
+eval(): eval("234.8")
+	takes strings and evaluate as if is a Python expression.
+
+
+capitalize(): 
+	string.capitalize(Str): make all uppuer letters to lower, except first.
+	even if first letter is lower, it will become upper.
+
+
+capwords():
+	string.capwords(Str): make the first letter in every word of a sentence as upper case letter.
+
+lower():
+	string.lower(Str):
+upper():
+	string.upper(Str):
+
+replace:
+	string.replace(Str, "original_string","new_string")			
+
+center():
+	string.center(Str,lenth):
+
+count():
+	string.count(Str,'letter'): shows the times the letter shows in Str.
+
+find():
+	string.find(Str.'ch'): find the position for the first time, begins as 0.
+
+
+
+
+
+
