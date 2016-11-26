@@ -1,2 +1,2 @@
-These code are excises in book wahtever I don't remember.
+These code are excises in book whatever I don't remember.
 just python.
